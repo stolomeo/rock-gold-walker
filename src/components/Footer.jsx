@@ -4,10 +4,10 @@ const Footer = () => {
       <div className="text-center">
         <h6 className="text-base">Stay connected with us:</h6>
 
-        <ul className="flex flex-wrap justify-center gap-x-8 gap-4 my-8">
+        <ul className="flex flex-wrap justify-center gap-4 my-8 gap-x-8">
           <li>
             <a
-              href="javascript:void(0)"
+              href="https://www.facebook.com/rock.gold.walker.14u/"
               className="text-xl hover:text-gray-400"
             >
               <svg
@@ -31,35 +31,7 @@ const Footer = () => {
 
           <li>
             <a
-              href="javascript:void(0)"
-              className="text-xl hover:text-gray-400"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="inline w-7 h-7"
-                viewBox="0 0 176 176"
-              >
-                <g data-name="Layer 2">
-                  <rect
-                    width="176"
-                    height="176"
-                    fill="#0077b5"
-                    data-original="#0077b5"
-                    rx="24"
-                  />
-                  <path
-                    fill="#fff"
-                    d="M63.4 48a15 15 0 1 1-15-15 15 15 0 0 1 15 15zM60 73v66.27a3.71 3.71 0 0 1-3.71 3.73H40.48a3.71 3.71 0 0 1-3.72-3.72V73a3.72 3.72 0 0 1 3.72-3.72h15.81A3.72 3.72 0 0 1 60 73zm82.64 34.5v32.08a3.41 3.41 0 0 1-3.42 3.42h-17a3.41 3.41 0 0 1-3.42-3.42v-31.09c0-4.64 1.36-20.32-12.13-20.32-10.45 0-12.58 10.73-13 15.55v35.86A3.42 3.42 0 0 1 90.3 143H73.88a3.41 3.41 0 0 1-3.41-3.42V72.71a3.41 3.41 0 0 1 3.41-3.42H90.3a3.42 3.42 0 0 1 3.42 3.42v5.78c3.88-5.82 9.63-10.31 21.9-10.31 27.18 0 27.02 25.38 27.02 39.32z"
-                    data-original="#ffffff"
-                  />
-                </g>
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="javascript:void(0)"
+              href="https://www.instagram.com/rock_gold_walker_14u/"
               className="text-xl hover:text-gray-400"
             >
               <svg
@@ -96,7 +68,7 @@ const Footer = () => {
 
           <li>
             <a
-              href="javascript:void(0)"
+              href="https://x.com/RockGoldWalker"
               className="text-xl hover:text-gray-400"
             >
               <svg

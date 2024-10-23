@@ -8,8 +8,8 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <header className="flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[80px] tracking-wide relative z-50">
-      <div className="flex flex-wrap items-center gap-5 w-full">
+    <header className="sticky top-0 flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[80px] tracking-wide relative z-50">
+      <div className="flex flex-wrap items-center w-full gap-5">
         <a href="javascript:void(0)">
           <img src={TeamLogo} alt="logo" className="w-24 max-lg:mr-5" />
         </a>
@@ -42,39 +42,43 @@ const Header = () => {
           </button>
 
           <ul className="lg:flex gap-4 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
-            <li className="mb-6 hidden max-lg:block">
+            <li className="hidden mb-6 max-lg:block">
               <a href="javascript:void(0)">
                 <img src={TeamLogo} alt="logo" className="w-24" />
               </a>
             </li>
-            <li className="max-lg:border-b max-lg:py-3 px-3">
+            <li className="px-3 max-lg:border-b max-lg:py-3">
               <a
                 href="javascript:void(0)"
                 className="hover:text-[#007bff] text-[#007bff] font-semibold block text-[15px]"
+                onClick={handleClick}
               >
                 Home
               </a>
             </li>
-            <li className="max-lg:border-b max-lg:py-3 px-3">
+            <li className="px-3 max-lg:border-b max-lg:py-3">
               <a
-                href="javascript:void(0)"
+                href="#schedule"
                 className="hover:text-[#007bff] text-[#333] font-semibold block text-[15px]"
+                onClick={handleClick}
               >
                 Schedule
               </a>
             </li>
-            <li className="max-lg:border-b max-lg:py-3 px-3">
+            <li className="px-3 max-lg:border-b max-lg:py-3">
               <a
-                href="javascript:void(0)"
+                href="#roster"
                 className="hover:text-[#007bff] text-[#333] font-semibold block text-[15px]"
+                onClick={handleClick}
               >
                 Roster
               </a>
             </li>
-            <li className="max-lg:border-b max-lg:py-3 px-3">
+            <li className="px-3 max-lg:border-b max-lg:py-3">
               <a
-                href="javascript:void(0)"
+                href="mailto:rockgoldwalker@gmail.com"
                 className="hover:text-[#007bff] text-[#333] font-semibold block text-[15px]"
+                onClick={handleClick}
               >
                 Contact
               </a>
@@ -82,7 +86,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className="flex items-center max-lg:ml-auto space-x-6">
+        <div className="flex items-center space-x-6 max-lg:ml-auto">
           <button id="toggleOpen" onClick={handleClick} className="lg:hidden">
             <svg
               className="w-7 h-7"
