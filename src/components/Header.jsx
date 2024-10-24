@@ -8,10 +8,10 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <header className="sticky top-0 flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[80px] tracking-wide relative z-50">
+    <header className="sticky top-0 flex shadow-md py-2 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[60px] tracking-wide z-50">
       <div className="flex flex-wrap items-center w-full gap-5">
         <a href="javascript:void(0)">
-          <img src={TeamLogo} alt="logo" className="w-24 max-lg:mr-5" />
+          <img src={TeamLogo} alt="logo" className="w-20 max-lg:mr-5" />
         </a>
 
         <div
